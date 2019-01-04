@@ -1,0 +1,20 @@
+.swap-hero-logo {
+  max-width: 100%;
+  height: auto;
+  padding: 0 20px;
+}
+
+.wallet-icons {
+  font-size: 4em;
+}
+
+.gradient-icon {
+    background: -webkit-linear-gradient(45deg, rgba(165,97,229,1) 0%,rgba(103,122,243,1) 50%,rgba(126,222,238,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial;
+}
+
+.exchange-logo {
+  padding: 20px !important;
+}
