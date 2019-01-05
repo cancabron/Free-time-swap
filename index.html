@@ -23,6 +23,7 @@
     <meta content="website" property="og:type">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
     <!-- Plugins -->
     <link rel="stylesheet" href="css/flipclock.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -54,19 +55,19 @@
                         Downloads
                     </a>
                     <div class="dropdown-menu" aria-labelledby="downloadsDropdown">
-                        <a class="dropdown-item" href="#wallets"><i class="fas fa-wallet"></i>&ensp;Wallets</a>
+                        <a class="dropdown-item" data-scroll href="#wallets"><i class="fas fa-wallet"></i>&ensp;Wallets</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#miners"><i class="fas fa-download"></i>&ensp;Miners</a>
+                        <a class="dropdown-item" data-scroll href="#miners"><i class="fas fa-download"></i>&ensp;Miners</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" data-scroll href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#roadmap">Roadmap</a>
+                    <a class="nav-link" data-scroll href="#roadmap">Roadmap</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#faq">FAQ</a>
+                    <a class="nav-link" data-scroll href="#faq">FAQ</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="communityDropdown" role="button" data-toggle="dropdown"
@@ -74,11 +75,11 @@
                         Community
                     </a>
                     <div class="dropdown-menu" aria-labelledby="communityDropdown">
-                        <a class="dropdown-item" href="#"><i class="fab fa-discord"></i>&ensp;Discord</a>
-                        <a class="dropdown-item" href="#"><i class="fab fa-twitter-square"></i>&ensp;Twitter</a>
-                        <a class="dropdown-item" href="#"><i class="fab fa-reddit"></i>&ensp;Reddit</a>
+                        <a class="dropdown-item" href="https://discord.gg/egc4md9" target="_blank"><i class="fab fa-discord"></i>&ensp;Discord</a>
+                        <a class="dropdown-item" href="https://twitter.com/_realSwap" target="_blank"><i class="fab fa-twitter-square"></i>&ensp;Twitter</a>
+                        <a class="dropdown-item" href="https://www.reddit.com/r/SwapProject" target="_blank"><i class="fab fa-reddit"></i>&ensp;Reddit</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#"><i class="fab fa-btc"></i>&ensp;BitcoinTalk ANN</a>
+                        <a class="dropdown-item" href="https://bitcointalk.org/index.php?topic=5083455.0" target="_blank"><i class="fab fa-btc"></i>&ensp;BitcoinTalk ANN</a>
                     </div>
                 </li>
             </ul>
@@ -88,7 +89,7 @@
     <div class="site-header d-flex flex-column align-items-center justify-content-between">
         <div class="hero">
           <div class="row align-items-center justify-content-around text-center mb-5">
-            <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-10 col-sm-6 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                   <img src="images/logo/swap-logo-coloured.png" alt="logo" class="swap-hero-logo">
             </div>
           </div>
@@ -96,7 +97,7 @@
                 <span class="highlight">Slogan</span> here</h1>
             <p class="lead mt-3 mx-auto">stable network ∙ no fees ∙ no premine</p>
 
-            <a href="#" class="btn btn-primary mt-3">Download Wallet&ensp;<i class="fas fa-arrow-circle-right"></i></a>
+            <a data-scroll href="#wallets" class="btn btn-primary mt-3">Download Wallet&ensp;<i class="fas fa-arrow-circle-right"></i></a>
         </div>
 
         <div class="graph">
@@ -106,7 +107,7 @@
         <div class="text-center mx-4">
             <h4 class="centered-text mb-4 section-highlight-text ">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
-            <a href="#" class="btn btn-outline-secondary">View Features</a>
+            <a data-scroll href="#roadmap" class="btn btn-outline-secondary">View Roadmap&ensp;<i class="fas fa-arrow-circle-right"></i></a>
         </div>
 
 
@@ -119,6 +120,8 @@
             <div class="section-title max-title">
                 <h3>Specs</h3>
             </div>
+
+            <p class="lead p-3 centered-text text-center mx-auto">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <div class="row">
                 <div class="col-12 col-md-4">
@@ -153,29 +156,40 @@
                 <h3>Wallets</h3>
             </div>
 
+            <p class="lead p-3 centered-text text-center mx-auto">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
             <div class="row">
-                <div class="col-12 col-sm-4 col-md-4">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="feature-item">
                         <span class="wallet-icons"><i class="featured-item-icon fab fa-windows gradient-icon" alt="windows"></i></span>
                         <h4 class="featured-item-title">Windows</h4>
-                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-win-gui.zip" target="_blank">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
-                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-win-cli.zip" target="_blank">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-win-gui.zip" target="_blank" class="btn btn-primary">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-win-cli.zip" target="_blank" class="btn btn-outline-secondary">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
+
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 col-md-4">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="feature-item">
                         <span class="wallet-icons"><i class="featured-item-icon fab fa-linux gradient-icon" alt="linux"></i></span>
                         <h4 class="featured-item-title">Linux</h4>
-                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-wallet-linux64-gui.tar.gz" target="_blank">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
-                        <p><a href="https://github.com/swap-dev/swap/releases/download/v1.0/swap-1.0-linux-cli.tar.gz" target="_blank">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-wallet-linux64-gui.tar.gz" target="_blank" class="btn btn-primary">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap/releases/download/v1.0/swap-1.0-linux-cli.tar.gz" target="_blank" class="btn btn-outline-secondary">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 col-md-4">
+                <div class="col-12 col-sm-6 col-md-3">
                     <div class="feature-item">
                         <span class="wallet-icons"><i class="featured-item-icon fab fa-apple gradient-icon" alt="mac"></i></span>
                         <h4 class="featured-item-title">MacOS</h4>
-                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-mac-gui.zip" target="_blank">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
-                        <p><a href="https://github.com/swap-dev/swap/releases/download/v1.0/swap-1.0-mac-cli.zip" target="_blank">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap-gui/releases/download/swap-v1.0/swap-1.0-mac-gui.zip" target="_blank" class="btn btn-primary">GUI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="https://github.com/swap-dev/swap/releases/download/v1.0/swap-1.0-mac-cli.zip" target="_blank" class="btn btn-outline-secondary">CLI wallet&ensp;<i class="fas fa-download"></i></a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <div class="feature-item">
+                        <span class="wallet-icons"><i class="featured-item-icon fas fa-toilet-paper gradient-icon" alt="paper wallet"></i></span>
+                        <h4 class="featured-item-title">Paper Wallet</h4>
+                        <p><a href="https://github.com/swap-dev/swap-paperwallet-generator" target="_blank" class="btn btn-primary">Download&ensp;<i class="fas fa-download"></i></a></p>
+                        <p><a href="#" target="_blank" class="btn btn-outline-secondary">Online&ensp;<i class="fas fa-arrow-circle-right"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -190,24 +204,26 @@
                 <h3>Miners</h3>
             </div>
 
+            <p class="lead p-3 centered-text text-center mx-auto">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
             <div class="row align-items-center justify-content-around text-center">
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">XMR-Stak</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">XMR-Stak&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">XMRigCC</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">XMRigCC&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">XMRigCC AMD</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">XMRigCC AMD&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">Cast XMR</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">Cast XMR&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">SRB Miner</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">SRB Miner&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
-                    <h4><a href="" target="_blank">JCE Miner</a></h4>
+                  <p><a href="" class="btn btn-outline-secondary">JCE Miner&ensp;<i class="fas fa-download"></i></a></p>
                 </div>
             </div>
 
@@ -323,14 +339,14 @@
                 <h3>Exchanges</h3>
             </div>
 
-            <div class="row align-items-center justify-content-around text-center mt-5 client-logos">
-              <div class="col-12 col-sm-6 col-md-4">
+            <div class="row align-items-center justify-content-around text-center exchange-logos">
+              <div class="col-6 col-sm-6 col-md-3">
                     <img src="images/exchanges/binance-logo.svg" alt="logo" class="img-fluid exchange-logo">
               </div>
-              <div class="col-12 col-sm-6 col-md-4">
+              <div class="col-6 col-sm-6 col-md-3">
                     <img src="images/exchanges/bittrex-logo.svg" alt="logo" class="img-fluid exchange-logo">
               </div>
-              <div class="col-12 col-sm-6 col-md-4">
+              <div class="col-6 col-sm-6 col-md-3">
                     <img src="images/exchanges/bitfinex-logo.svg" alt="logo" class="img-fluid exchange-logo">
               </div>
             </div>
@@ -347,24 +363,26 @@
                 <h3>Our Community Team</h3>
             </div>
 
+            <p class="lead p-3 centered-text text-center mx-auto">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
             <div class="row text-center">
-                <div class="col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid mb-4">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid img-team mb-4">
                     <h4 class="mb-0">Member 01</h4>
                     <small class="text-info text-uppercase">Founder</small>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid mb-4">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid img-team mb-4">
                     <h4 class="mb-0">Member 02</h4>
                     <small class="text-info text-uppercase">Community leader</small>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid mb-4">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid img-team mb-4">
                     <h4 class="mb-0">Member 03</h4>
                     <small class="text-info text-uppercase">Developer</small>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3 mb-5">
-                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid mb-4">
+                <div class="col-12 col-sm-6 col-md-3 col-lg-3 mb-5">
+                    <img src="images/team/profile-pic-demo.jpg" alt="team" class="img-fluid img-team mb-4">
                     <h4 class="mb-0">Member 04</h4>
                     <small class="text-info text-uppercase">Marketing</small>
                 </div>
@@ -417,7 +435,7 @@
             </div>
 
             <div class="text-center my-3">
-                <a href="#" class="btn btn-outline-secondary">Need help? Join us at Discord!</a>
+                <a href="https://discord.gg/egc4md9" target="_blank" class="btn btn-outline-secondary">Need help? Join us at Discord!&ensp;<i class="fab fa-discord"></i></a>
             </div>
 
         </div>
@@ -444,6 +462,8 @@
     <!-- Custom JS -->
     <!--<script src="js/script.js"></script>-->
     <script type="text/javascript" src="js/plugins/countTo.js"></script>
+    <script type="text/javascript" src="js/plugins/smooth-scroll.polyfills.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/stats.js"></script>
     <!--<script type="text/javascript" src="js/blog.js"></script>-->
 
