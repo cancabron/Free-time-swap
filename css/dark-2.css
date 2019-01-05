@@ -140,7 +140,7 @@ dfn {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 small {
@@ -2506,8 +2506,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
 }
 
 .btn.disabled, .btn:disabled {
@@ -2541,8 +2540,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:focus, .btn-primary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 120, 203, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 120, 203, 0.5);
+
+
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2559,8 +2558,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 120, 203, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 120, 203, 0.5);
+
 }
 
 .btn-secondary {
@@ -2582,8 +2580,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
+
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
@@ -2914,8 +2911,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
+
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
@@ -2932,8 +2928,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(46, 56, 128, 0.5);
+
 }
 
 .btn-outline-success {
@@ -9734,8 +9729,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(109, 112, 255, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(109, 112, 255, 0.5);
+
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
@@ -9752,8 +9746,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-secondary.dropdown-toggle:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(109, 112, 255, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(109, 112, 255, 0.5);
+
 }
 
 .light .btn-outline-secondary {
