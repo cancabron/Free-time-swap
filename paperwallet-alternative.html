@@ -94,24 +94,35 @@
 <!-- Swap Paper Wallet Generator -->
 <html>
 <head>
+  <title>Swap - Paper Wallet Generator</title>
   <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
   <style>
     body {  
-      background-color: #d3d3d3;
+      background-color: #151933;
       font-family: 'Roboto', Helvetica, Arial, sans-serif;
       line-height: 1.428571429;
       color: #262626;
-      margin: 0;
-      padding: 0;
+      margin:0;
+      padding:0;
       margin-bottom: 85px;
       font-size: 16px;
-      overflow-y: scroll;
+      overflow-y: auto;
     }
-    
+    img {
+	  height:auto;
+      width:55%;
+ 	}
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
       font-weight: 400;
+	  color: #fff;
       -webkit-font-smoothing: antialiased;
       font-family: 'Roboto Condensed', Arial, sans-serif;
+      text-align:left;
     }
     h3,.h3 {
       font-size: 32px;
@@ -121,13 +132,15 @@
     .card {
       display: inline-block;
       position: relative;
-      width: 100%;
+      width: 600px;
       margin: 0;
       padding: 0;
       box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.14);
       border-radius: 3px;
       color: rgba(0, 0, 0, 0.87);
       background: #fff;
+      word-wrap:break-word;
+      text-align:left;
     }
 
     .padding-15 { padding: 15px !important; }
@@ -135,17 +148,23 @@
     .push-up-15 { margin-top: 15px !important; }
     
     #wrapper {
-      width: 100%;
+      width:650px;
+      margin: 15px auto;
+      text-align:left;
     }
     #page-wrapper {
-      padding: 0 15px;
+      margin:0;
       min-height: 568px;
+      text-align:center;
     }    
       .btn-default {
         color: #ffffff;
         background-color: #1a4b63;
         border-color: #014e71;
     }
+
+
+}
   </style>
 </head>
 <body>
@@ -153,6 +172,7 @@
     <div id="wrapper">
       <div id="page-wrapper">
         <div id="page">
+		  <span><img src="images/logo/swap-logo-coloured.png" /></span>
           <h3><span>Paper Wallet Generator</span></h3>
           <div class="card padding-15 padding-b-10">
             This page generates a new Swap wallet address that can be imported into the GUI/CLI wallet.<br>
