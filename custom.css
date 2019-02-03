@@ -23,6 +23,20 @@
   border-radius: 5px;
 }
 
+#team p {
+  margin-bottom:6px;
+  padding-bottom:0px;
+}
+
+#team hr {
+  background-color:#9999cc;
+  width:70%;
+  height: 0px;
+  margin:3px auto 6px;
+  padding:0;
+  border:0 none;
+}
+
 @media (max-width: 992px) {
 .img-team {
     max-width: 50%;
