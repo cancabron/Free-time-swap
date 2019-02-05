@@ -4,6 +4,13 @@
   padding: 0 20px;
 }
 
+.swap-cuckoo-logo {
+  max-width: 100%;
+  height: auto;
+  padding: 0 0px 0px 0;
+  margin: 0;
+}
+
 .wallet-icons {
   font-size: 4em;
 }
