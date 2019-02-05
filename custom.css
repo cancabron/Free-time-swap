@@ -45,6 +45,9 @@
 }
 
 @media (max-width: 992px) {
+h1 {
+  font-size:2rem;
+}
 .img-team {
     max-width: 50%;
     height: auto;
